@@ -1,4 +1,9 @@
+
 # Intelligent Toxin Management Solution for Industries
+
+Project by: 
+Shaurjya Mandal (ML Research Scientist, Harvard Medical School- Mass General Hospital)
+Dheeraj Pai (Senior Engineer, SystemsTwoSecurity)
 
 Every two months, the U.S. government issues updated policies and recommendations on toxin management for industries operating within the country. However, for new and emerging businesses, navigating the complexities of toxin risks, regulatory requirements, and health implications can be overwhelming. Foreign investors or companies looking to establish operations in the U.S. often lack specialized knowledge about the medical impacts of toxins or the intricate regulations they must comply with.
 
@@ -17,6 +22,7 @@ This solution empowers companies to:
 By simplifying complexity and enhancing awareness, we aim to create a more inclusive environment where businesses can thrive while prioritizing sustainability and public health.
 
 Site: (https://www.epa.gov/chemicals-under-tsca/pollution-prevention-and-toxics-news-stories)
+
 Database link: (https://drive.google.com/file/d/1jDRQNQUKIZGWGfhoWKZznycErhUdU3wp/view?usp=sharing)
 
 
