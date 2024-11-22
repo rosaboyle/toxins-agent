@@ -9,9 +9,21 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 // This would typically come from an API or database
 const reportData = {
   toxins: [
-    { name: 'Lead', sources: ['Paint pigments', 'Metal alloys'] },
-    { name: 'Formaldehyde', sources: ['Adhesives', 'Preservatives'] },
-    { name: 'Phthalates', sources: ['Plastics', 'Cosmetics'] },
+    { 
+      name: 'Lead',
+      sources: ['Paint pigments', 'Metal alloys'],
+      explanation: 'Lead has been historically used in paints for its durability and in metal alloys for its malleability. Despite regulations, it may still be present in older products or imported items.'
+    },
+    { 
+      name: 'Formaldehyde',
+      sources: ['Adhesives', 'Preservatives'],
+      explanation: 'Formaldehyde is commonly used in adhesives for its bonding properties and as a preservative due to its antimicrobial effects. It\'s often found in composite wood products and some personal care items.'
+    },
+    { 
+      name: 'Phthalates',
+      sources: ['Plastics', 'Cosmetics'],
+      explanation: 'Phthalates are used to increase the flexibility of plastics and as solvents in cosmetics. They\'re found in a wide range of products from vinyl flooring to personal care items.'
+    },
   ],
   diseases: [
     { toxin: 'Lead', diseases: ['Anemia', 'Kidney damage', 'Neurological disorders'] },
@@ -48,6 +60,7 @@ export default function OutputReportPage() {
                     <TableRow>
                       <TableHead>Toxin</TableHead>
                       <TableHead>Potential Sources</TableHead>
+                      <TableHead>Explanation</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
@@ -55,6 +68,7 @@ export default function OutputReportPage() {
                       <TableRow key={index}>
                         <TableCell className="font-medium">{toxin.name}</TableCell>
                         <TableCell>{toxin.sources.join(', ')}</TableCell>
+                        <TableCell>{toxin.explanation}</TableCell>
                       </TableRow>
                     ))}
                   </TableBody>
