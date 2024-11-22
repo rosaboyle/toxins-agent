@@ -1,3 +1,33 @@
+
+# Intelligent Toxin Management Solution for Industries
+
+Project by: 
+Shaurjya Mandal (ML Research Scientist, Harvard Medical School- Mass General Hospital)
+
+Dheeraj Pai (Senior Engineer, SystemsTwoSecurity)
+
+Every two months, the U.S. government issues updated policies and recommendations on toxin management for industries operating within the country. However, for new and emerging businesses, navigating the complexities of toxin risks, regulatory requirements, and health implications can be overwhelming. Foreign investors or companies looking to establish operations in the U.S. often lack specialized knowledge about the medical impacts of toxins or the intricate regulations they must comply with.
+
+To address this, we’ve developed a **dynamic solution** that integrates real-time information from trusted sources like the **U.S. Environmental Protection Agency (EPA)** and the **Comparative Toxicogenomics Database**. Our intelligent agent generates **comprehensive, tailored reports** based on a company’s line of products, manufacturing processes, and raw materials. These reports identify:
+
+- Potential toxins released.
+- Associated health risks.
+- Specific regulations businesses must adhere to.
+
+This solution empowers companies to:
+
+1. **Make informed decisions.**
+2. **Ensure compliance with environmental and health standards.**
+3. **Foster trust within the regulatory framework.**
+
+By simplifying complexity and enhancing awareness, we aim to create a more inclusive environment where businesses can thrive while prioritizing sustainability and public health.
+
+Site: (https://www.epa.gov/chemicals-under-tsca/pollution-prevention-and-toxics-news-stories)
+
+Database link: (https://drive.google.com/file/d/1jDRQNQUKIZGWGfhoWKZznycErhUdU3wp/view?usp=sharing)
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
