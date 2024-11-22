@@ -3,6 +3,7 @@
 
 Project by: 
 Shaurjya Mandal (ML Research Scientist, Harvard Medical School- Mass General Hospital)
+
 Dheeraj Pai (Senior Engineer, SystemsTwoSecurity)
 
 Every two months, the U.S. government issues updated policies and recommendations on toxin management for industries operating within the country. However, for new and emerging businesses, navigating the complexities of toxin risks, regulatory requirements, and health implications can be overwhelming. Foreign investors or companies looking to establish operations in the U.S. often lack specialized knowledge about the medical impacts of toxins or the intricate regulations they must comply with.
